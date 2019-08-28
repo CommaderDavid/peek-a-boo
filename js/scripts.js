@@ -13,4 +13,9 @@ $(document).ready(function() {
     $("#dog-down").slideToggle();
     $("#dog-up").slideToggle();
   });
+
+  $("#dog-out").click(function() {
+    $("#dog-down").slideDown();
+    $("#dog-up").slideUp();
+  });
 });

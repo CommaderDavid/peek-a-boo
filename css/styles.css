@@ -36,3 +36,12 @@
 .slide:hover {
   text-decoration: underline;
 }
+
+#dog-out {
+  cursor: crosshair;
+  color: #009933;
+}
+
+#dog-out:hover {
+  text-decoration: overline;
+}
