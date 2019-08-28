@@ -14,3 +14,12 @@
 .clickable:hover {
   text-decoration: underline;
 }
+
+.fading {
+  cursor: pointer;
+  color: #990000;
+}
+
+.fading:hover {
+  text-decoration: underline;
+}
