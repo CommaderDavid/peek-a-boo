@@ -9,5 +9,8 @@ $(document).ready(function() {
     $("#cat-hidden").fadeToggle();
   });
 
-  
+  $(".slide").click(function() {
+    $("#dog-down").slideToggle();
+    $("#dog-up").slideToggle();
+  });
 });
